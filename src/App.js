@@ -31,7 +31,7 @@ function App() {
     <div>                                                     // div = division (bungkus elemen)
       <h1>To-Do List</h1>                                     // header "To-Do List"
       <input
-        type="text"                                           // string
+        type="text"                                           
         value={input}                                         
         onChange={(e) => console.log(e.target.value)}         // mengupdate state input saat nilai input berubah (bingung)
         
